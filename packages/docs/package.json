@@ -1,0 +1,14 @@
+{
+    "name": "@react-component-library/docs",
+    "version": "1.0.0",
+    "description": "React组件库文档",
+    "scripts": {
+        "dev": "vitepress dev",
+        "build": "vitepress build",
+        "preview": "vitepress preview"
+    },
+    "devDependencies": {
+        "vitepress": "^1.0.0",
+        "@vue/theme": "^1.0.0"
+    }
+}

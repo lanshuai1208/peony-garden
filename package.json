@@ -1,0 +1,16 @@
+{
+  "name": "react-component-library",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm --filter shared build && pnpm --filter pc build && pnpm --filter mobile build",
+    "dev": "pnpm --filter docs dev",
+    "publish:pc": "pnpm --filter pc publish",
+    "publish:mobile": "pnpm --filter mobile publish"
+  },
+  "devDependencies": {
+    "pnpm": "^8.6.0"
+  }
+}
