@@ -17,10 +17,10 @@ export const Button: React.FC<ButtonProps> = ({
     onClick,
     className = ''
 }) => {
-    const baseClasses = 'pc-button';
-    const variantClasses = `pc-button--${variant}`;
-    const sizeClasses = `pc-button--${size}`;
-    const disabledClasses = disabled ? 'pc-button--disabled' : '';
+    const baseClasses = 'mobile-button';
+    const variantClasses = `mobile-button--${variant}`;
+    const sizeClasses = `mobile-button--${size}`;
+    const disabledClasses = disabled ? 'mobile-button--disabled' : '';
 
     const classes = [baseClasses, variantClasses, sizeClasses, disabledClasses, className]
         .filter(Boolean)
